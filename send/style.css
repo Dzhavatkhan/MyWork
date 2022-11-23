@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nub{
+    position: absolute;
+    width: 99vw;
+    height: 150px;
+
+    top: 0px;
+    
+    background: #9A55F2;
+}
+.img{
+    position: absolute;
+    width: 78px;
+    height: 70px;
+    left: 1069px;
+    top: 45px;
+}
+h2{
+    position: absolute;
+    width: 224px;
+    height: 72px;
+    left: 845px;
+    top: 54px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+form{
+    position: absolute;
+    top: 70px;
+}
+.add{
+    position: absolute;
+    width: 355px;
+    height: 73px;
+    left: 779px;
+    /* top: 873px; */
+    top: 753px;
+    border: transparent;
+    background: #9A55F2;
+    border-radius: 23px;
+    cursor: pointer;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.add:hover{
+transition: 0.7s;
+background-color: #4B5EF9;
+}
+.add:active{
+    transition: 0.3s;
+    background-color: #5A42DB;
+}
+.name_book{
+    box-sizing: border-box;
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    left: 810px;
+    /* top: 213px */
+    top: 113px;
+    outline: #4B5EF9;
+    background: #FFFFFF;
+    border: 1px solid #9A55F2;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 15px;
+}
+input::placeholder{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    
+    color: #8B8787;
+}
+textarea{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+}
+textarea::placeholder{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    
+    color: #8B8787;
+}
+.name_author{
+    outline: #4B5EF9;
+    box-sizing: border-box;
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    left: 810px;
+    /* top: 318px; */
+    top: 218px;
+    padding-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #9A55F2;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 15px;   
+}
+.genre{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    left: 810px;
+    top: 323px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 15px;  
+    outline: #4B5EF9;
+    background: #FFFFFF;
+    border: 1px solid #9A55F2;
+    border-radius: 15px;
+}
+/* .image{
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    left: 810px;
+    top: 548px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    background: #9A55F2;
+    border: 1px solid #9A55F2;
+    cursor: pointer;
+    border-radius: 15px;   
+} */
+.desc{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 355px;
+    height: 117px;
+    left: 779px;
+    top: 592px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #9A55F2;
+    border-radius: 15px;
+    padding-left: 15px;   
+}
+
+.inImage{
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    left: 829px;
+    top: 432px;
+    
+}
+.year{
+    box-sizing: border-box;
+    outline: none;
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    left: 810px;
+    top: 503px;
+    padding-left: 15px;   
+    background: #FFFFFF;
+    border: 1px solid #9A55F2;
+    border-radius: 15px; 
+}
+ .admin_cat{
+
+    position: relative;
+    width: 99vw;
+    height: 999px;
+    top: 900px;
+}
+
+.g{
+    float: left;
+    margin-top: 50px;
+    margin-left: 345px;
+
+
+}
+.g img{
+height: 316px;
+width: 200px;
+}
+
+.home{
+    position: absolute;
+    width: 114px;
+    height: 113px;
+    left: 62px;
+    top: 25px;
+}
